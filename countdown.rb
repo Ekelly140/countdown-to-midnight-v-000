@@ -11,7 +11,7 @@ end
 def countdown_with_sleep(num)
    num.loop do 
     puts '#num SECONDS'
-    sleep
+    sleep(1)
   end 
   return "HAPPY NEW YEAR"
   
