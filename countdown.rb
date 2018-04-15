@@ -6,3 +6,13 @@ def countdown(num)
   end 
   return "HAPPY NEW YEAR"
 end
+
+
+def countdown_with_sleep(num)
+   num.loop do 
+    puts '#num SECONDS'
+    sleep
+  end 
+  return "HAPPY NEW YEAR"
+  
+end 
